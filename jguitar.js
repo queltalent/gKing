@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-<body>
 
-<p>This example calls a function which performs a guitar, and returns the result:</p>
-
-<p id="demo"></p>
-
-<script>
 var arrBaseNoteSharp = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
 var arrBaseNoteFlat = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B"];
 
@@ -40,13 +32,9 @@ function getArrayNotes(arrayNum, isSharp) {
        return arr ;
 }
 
-<!this is a demo function which show how to use this two functions,and have fun!>
+
 function myFunction() {
    var arr = getArrayNumMaj(3);
    return getArrayNotes(arr,0);
 }
-document.getElementById("demo").innerHTML = myFunction();
-</script>
 
-</body>
-</html>
